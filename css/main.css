@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*index*/
+#fondo{
+  background-color:#c2185b;
+}
+
+#fondo-principal{
+	background-image: url("../img/gif-lyft.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#logo{
+  height: 15vh;  
+}
+
+#btns{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#btn-login{
+	background: none;
+  border: 2px solid black;
+  border-radius: 12%;
+}
+
+#btn-signup{
+	background-color: #c2185b;
+  border-radius: 12%;
+ 
+}	
+
+
+ 
+
+
+
