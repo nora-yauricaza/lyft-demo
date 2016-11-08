@@ -8,4 +8,3 @@
 
 
 
-![](http://i65.tinypic.com/142ebnc.jpg)
