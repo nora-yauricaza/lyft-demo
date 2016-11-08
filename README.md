@@ -1,7 +1,7 @@
 # lyft-demo
 
 
-![](http://i63.tinypic.com/15ezdbl.png)
+![](http://i64.tinypic.com/34dld7c.jpg)
 
 
 ![](http://i66.tinypic.com/j14psi.jpg)
