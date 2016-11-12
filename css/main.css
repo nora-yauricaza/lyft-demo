@@ -3,11 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/*index*/
-#fondo{
-  background-color:#c2185b;
+
+/*fondo*/
+.load{
+  	background: -webkit-linear-gradient(#000000 6%,#c2185b 31%,#000000 59%);
+  	width: 100vw;
+  	height: 100vh;
+  	z-index: 200;
+  	position: absolute;
+  	text-align: center;
 }
 
+/*index*/
 #fondo-principal{
 	background-image: url("../img/gif-lyft.gif");
 	background-size: cover;
@@ -17,29 +24,27 @@
 }
 
 #logo{
-  height: 15vh;  
+  	height: 15vh; 
+  	/*margin-top: 45%;*/
+  	
 }
 
 #btns{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
 }
 
 #btn-login{
 	background: none;
-  border: 2px solid black;
-  border-radius: 12%;
+  	border: 2px solid black;
+  	border-radius: 12%;
 }
 
 #btn-signup{
-	background-color: #c2185b;
-  border-radius: 12%;
+	background: linear-gradient(to right, rgba(194,24,91,1) 0%,rgba(0,0,0,1) 0%,rgba(196,25,122,1) 58%);
+  	border-radius: 12%;
  
 }	
-
-
- 
-
 
 
