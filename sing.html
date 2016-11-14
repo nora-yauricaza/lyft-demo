@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<title></title>
 	<link rel="stylesheet" href="css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -18,26 +19,30 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="input-field col s4">
-					<select>
-					    <option value="" disabled selected>País</option>
-					    <option value="" class="left circle">Perú</option>
-					    <option value="" class="left circle">USA</option>
-					    <option value="" class="left circle">Brasil</option>
-					</select>
+				<div class="col s4 center-align">
+					<img src="img/peru.ico"  width="30%" alt="">
 				</div>
 				<div class="input-field col s2">
 					<input value="+51" type="text" disabled>
 				</div>	
 				<div class="input-field col s6">
-				    <input value="" type="text" placeholder="123456789">
+					<form method="POST" action="form" id="ingresarNum">
+				    	<input value="" type="tel" id="digitos" placeholder="123456789" required  maxlength="9" name="digitos">
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+	<section id="seccion-atras">
+		<a href="index.html"><i class="material-icons large">chevron_left</i></a>
+	</section>
+	<section>
+		<a class="contenedor-btnNext waves-effect waves-light btn-large center-align" id="btn-next" >Next</a>
+	</section>	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/messages_es.js"></script>
 </body>
 </html>
