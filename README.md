@@ -11,13 +11,13 @@ $(document).ready(function(){
 
 ![](http://i66.tinypic.com/ivcthz.jpg)
 
-Validar solo numeros. "Solo debe ingresar número"
+Ingresar / Validar solo numeros. "Solo debe ingresar número"
 
 ![](http://i65.tinypic.com/ym7ue.jpg)
 
 ![](http://i68.tinypic.com/30wxhkg.jpg)
 
-ingresar/validar nombre, apellido, email
+ingresar / validar nombre, apellido, email
 
 
 ![](http://i66.tinypic.com/25kireu.jpg)
