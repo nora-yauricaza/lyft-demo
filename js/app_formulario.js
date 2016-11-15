@@ -11,7 +11,10 @@ $(document).ready(function(){
 			},
 			email:{ 
 				required: true, 
-			}
+			},
+			checkbox:{
+				required: true,
+			},
 		},
 		messages:{
 			nombre:{ 
@@ -23,8 +26,11 @@ $(document).ready(function(){
 			email:{ 
 				required:"Debe introducir su email." ,
 				},
-			},
-		});
+			checkbox:{
+				required:"Debe aceptar los términos para continuar",
+			}
+		},
+	});
 	$("#btn-next-usuario").on("click",function(){
 		$("#formulario").submit();
 
@@ -32,3 +38,10 @@ $(document).ready(function(){
 
 	
 });
+
+
+
+
+
+
+

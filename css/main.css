@@ -6,12 +6,12 @@
 
 /*fondo*/
 .load{
-  	background: -webkit-linear-gradient(#000000 6%,#c2185b 31%,#000000 59%);
-  	width: 100vw;
-  	height: 100vh;
-  	z-index: 200;
-  	position: absolute;
-  	text-align: center;
+	background: -webkit-linear-gradient(#000000 6%,#c2185b 31%,#000000 59%);
+	width: 100vw;
+	height: 100vh;
+	z-index: 200;
+	position: absolute;
+	text-align: center;
 }
 
 /*index*/
@@ -24,28 +24,25 @@
 }
 
 #logo{
-  	height: 15vh; 
-  	/*margin-top: 45%;*/
-  	
+  height: 15vh;  	
 }
 
 #btns{
-  	position: absolute;
-  	bottom: 0;
-  	width: 100%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 #btn-login{
 	background: none;
-  	border: 2px solid black;
-  	border-radius: 12%;
+	border: 2px solid black;
+	border-radius: 12%;
 }
 
 #btn-signup{
 	background: linear-gradient(to right, rgba(194,24,91,1) 0%,rgba(0,0,0,1) 0%,rgba(196,25,122,1) 58%);
   border-radius: 12%;
   border-radius: 12%;
- 
 }	
 
 /*mapa.html*/
@@ -63,11 +60,24 @@
   width: 100vw;
 }
 #contenedor-iconos{
-    height: 95vh;
-    position: relative;
+  height: 95vh;
+  position: relative;
 }
 
 #map{
   width: 100%;
   height: 100vh;
+}
+
+.btn-Ubi{
+  height: 54px;
+}
+
+.buscarMap{
+  background-color: red;
+  position: absolute;
+  top: 18%;
+  right: 4%;
+  width: 15%;
+  height: 36%;
 }

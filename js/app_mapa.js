@@ -3,7 +3,7 @@
 function geolocalizar()
         {
           $("#estado").text("Buscando...");
-          navigator.geolocation.getCurrentPosition(exito,error);
+          navigator.geolocation.getCurrentPosition(exito,fallo);
         }
  
         
@@ -24,8 +24,8 @@ function geolocalizar()
           $("#empieza").hide();
         }
 
-        /*Funcion para el error cuando no hay geolocalizacion*/
-        function error(error)
+        /*Funcion para el fallo cuando no hay geolocalizacion*/
+        function fallo(fallo)
         {
             $("#estado").text("No te encontre, pero lo voy a seguir intentando.");
         } 

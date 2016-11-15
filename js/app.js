@@ -27,9 +27,5 @@ $(document).ready(function(){
         	var digitos =  $('#digitos').validate();
         	$("#ingresarNum").submit();	    
     	}
-    });
-	$("#btn-next").on("click",function(){
-		$("#ingresarNum").submit();
-	});
-	
+    });	
 });
