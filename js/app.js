@@ -3,22 +3,22 @@ $(document).ready(function(){
 
 	$("#ingresarNum").validate({
 		rules:{
-			"digitos":{ 
+			digitos:{ 
 				required: true, 
 				maxlength: 9,
 				minlength:9,
 				digits: true
 			}
 		},
-		messages:{
-			"digitos":{ 
-				required:"Debe introducir digitos", 
+		menssage:{
+			digitos:{ 
+				required:"El campo es requerido" , 
 				maxlength: "Ingrese 9 digitos",
 				digits: "solo numeros"
 				},
 			},
 		});
-
+	
 		$("#btn-next").on("click",function(){
 			
 		if ($('#ingresarNum').validate()) {
@@ -28,4 +28,8 @@ $(document).ready(function(){
         	$("#ingresarNum").submit();	    
     	}
     });
+	$("#btn-next").on("click",function(){
+		$("#ingresarNum").submit();
+	});
+	
 });

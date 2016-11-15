@@ -37,12 +37,13 @@
 
 #btn-login{
 	background: none;
-  border: 2px solid black;
-  border-radius: 12%;
+  	border: 2px solid black;
+  	border-radius: 12%;
 }
 
 #btn-signup{
 	background: linear-gradient(to right, rgba(194,24,91,1) 0%,rgba(0,0,0,1) 0%,rgba(196,25,122,1) 58%);
+  border-radius: 12%;
   border-radius: 12%;
  
 }	
