@@ -20,29 +20,26 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<form class="col s12">
+				<form class="col s12" method="POST" action="mapa.html" id="formulario">
 				    <div class="row">
 				        <div class="input-field col s6">
 				          	<i class="material-icons prefix">account_circle</i>
-				          	<input id="nombre" type="text" class="validate datos" id="first_name">
-				          	<label for="nombre">Nombre</label>
+				          	<input type="text" id="nombre" placeholder="Nombre" required  name="nombre">
 				        </div>
 				    	<div class="input-field col s6">
-				         	<input id="apellido" type="text" class="validate datos">
-				          	<label for="apellido">Apellido</label>
+				         	<input type="text" id="apellido" placeholder="Apellido" required name="apellido">
 				        </div>
 				      </div>
 				      <div class="row">
 				        <div class="input-field col s12">
 				          <i class="material-icons prefix">mail_outline</i>
-				          <input id="email" type="text" class="validate">
-				          <label for="iconmail">Email</label>
+				          <input type="text" id="email" placeholder="Email" required name="email">
 				        </div>
 				      </div>
 				      <div class="row">
 				      	<div class="col s12">
 				      		<p class="center">
-      							<input type="checkbox" id="test5" class="checkbox-validar" />
+      							<input type="checkbox" id="test5" class="checkbox-validar" name="checkbox"/>
       							<label>I agree to Lyft`s </label><a href="#">Terms of Service</a>
     						</p>
 				      	</div>
@@ -55,11 +52,11 @@
 		<a href="codigo.html"><i class="material-icons large" id="icono_atras">chevron_left</i></a>
 	</section>
 	<section>
-		<a class="contenedor-btnNext waves-effect waves-light btn-large center-align" id="btn-next-usuario">Next</a>
+		<a href="mapa.html" class="contenedor-btnNext waves-effect waves-light btn-large center-align" id="btn-next-usuario">Next</a>
 	</section>	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>	
+	<script type="text/javascript" src="js/app_formulario.js"></script>	
 </body>
 </html>

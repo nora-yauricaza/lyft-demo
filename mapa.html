@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title></title>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <body>
+    <ul id="slide-out" class="side-nav">
+    	<div class="userView center-align">
+	      	<a href="#"><img class="circle center-align" src="img/perfil-icono.jpg"></a>
+	      	<a href="#"><span class="black-text name">Nora</span></a>
+	      	<a href="#!email"><span class="black-text email">nora.yauricaza@gmail.com</span></a>
+    	</div>
+        <li><a href="#!"><i class="material-icons">place</i>Home</a></li>
+	    <li><div class="divider"></div></li>
+	    <li><a href="#!"><i class="material-icons">redeem</i>Free Rides</a></li>
+	    <li><div class="divider"></div></li>
+	    <li><a href="#!"><i class="material-icons">restore</i>Ride History</a></li>
+	    <li><div class="divider"></div></li>
+	    <li><a href="#!"><i class="material-icons">payment</i>Payment</a></li>
+	    <li><div class="divider"></div></li>
+	    <li><a href="#!"><i class="material-icons">help</i>Help</a></li>
+	    <li><div class="divider"></div></li>
+	    <li><a href="#!"><i class="material-icons">settings</i>Settings</a></li>
+	    <li><a class="waves-effect" href="#!">Sing Up Drive</a></li>
+	</ul>
+  	<div id="contenedor-cabecera-mapa">
+		<div class="container" id="contenedor-iconos">
+			<header>
+				<div class="row">
+					<div class="col s12">
+						<a href="#" data-activates="slide-out" class="button-collapse"><i class="medium material-icons color_negro" id="circulo-persona">account_circle</i></a>
+					</div>
+				</div>
+			</header>
+			<section id="contenedor-pie">
+			  <div class="row">
+	    		<form class="col s12" id="formulario-mapa">
+	      			<div class="row">
+	        			<div class="input-field col s12">
+	          				<input placeholder="Ubicación" id="ubicacion" type="text" class="boton-pickup  waves-light btn-large validate">
+	        			</div>
+	      			</div>
+	      			<div class="row">
+	        			<div class="input-field col s12">
+	      					<a class="boton-pickup waves-effect waves-light btn-large">request line</a>
+	        			</div>
+	      			</div>
+	    		</form>
+			</section>
+		</div>
+	</div>
+        
+  	<div id="map"></div>
+  	 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjudrUKYECJJuacxCVNxrfscGfcWQQvMw"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script> 
+  		<script type="text/javascript" src="js/gmaps.js"></script>
+  		<script type="text/javascript" src="js/geolocalizacion.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>		
+</body>
+</html>
